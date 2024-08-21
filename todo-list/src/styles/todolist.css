@@ -1,0 +1,25 @@
+.form-class{
+  text-align: center;
+  /* margin-top: 5cap; */
+  margin-left: 1.5%;
+  width: 505px;
+  display: flex;
+  flex-flow: row;
+}
+
+.form-class button{
+  background-color: rgb(90, 65, 213);
+  width: 120px;
+  margin-left: 10px;
+}
+
+.list-class{
+  text-align: center;
+  margin-top: 4%;
+  margin-left: 2%;
+}
+
+.heading{
+  /* text-align: center; */
+  margin-left: 180px;
+}
