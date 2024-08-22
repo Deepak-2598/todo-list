@@ -16,6 +16,7 @@ const TodoList = () => {
 
   useEffect(() => {
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(todos));
+    console.log(localStorage,'2nd')
   }, [todos]);
 
   const handleInputChange = (e) => {
